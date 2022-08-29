@@ -1,0 +1,33 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+#addform{
+    display: none;
+    grid-template-columns: 4rem auto;
+    width: 20rem;
+    grid-gap: 1rem;
+    z-index: 1002;
+}
+
+.libwrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    z-index: 1;
+}
+
+.bookitem{
+    display: grid;
+    width: 25rem;
+    grid-template-columns: minmax(5rem,7rem) auto;
+    grid-gap: 1rem;
+    z-index: 2;
+    border: 2px solid black;
+    background-color: gray;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 1rem 0;
+}
